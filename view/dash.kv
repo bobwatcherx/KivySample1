@@ -1,0 +1,36 @@
+<Myapp>:
+	orientation: 'vertical'
+	spacing:2
+	MDTopAppBar:
+		elevation:20
+		title:"My KIVY APP"
+		left_action_items:[["menu"]]
+		right_action_items:[["dots-vertical"],["clock"]]
+	MDBoxLayout:
+		padding:20
+		spacing:10
+		adaptive_height:True
+		MDLabel:
+			text:"My app"
+		MDRaisedButton:
+			text:"click me"
+			size_hint_x: 1
+			md_bg_color:"red"
+
+
+	MDLabel:
+		text:"test"
+		halign: "center"
+		font_size: "30px"
+	MDBoxLayout:
+		adaptive_height:True
+		MDIconButton:
+			icon:"home"
+		MDIconButton:
+			icon:"home"
+		MDIconButton:
+			icon:"home"
+		MDIconButton:
+			icon:"home"
+
+	
